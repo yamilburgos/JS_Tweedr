@@ -41,6 +41,7 @@ You will be deploying two separate apps. One will be an express API and one will
 
 ## Suggested workflow
 - Start with the database. What will your table look like.
+- You will each need a local copy of the database. In the end there will be single database on heroku but in the meantime you will each need a local copy to use in development.
 - Create an API that uses your database. Test your routes with postman.
 - Create a react app that uses axios to consume your api and displays the information. 
 
