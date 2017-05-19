@@ -10,7 +10,7 @@ Your team will be responsible for making an express backend API that uses postsg
 
 ### Wireframe
 
-![tweedr](./assets/tweedr.png)
+![tweedr](tweedr.png)
 
 ### Before you start
 
