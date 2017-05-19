@@ -34,9 +34,14 @@ Your React/Express app should:
     - `TweedrFeed`: Holds `Tweed` components, which reflect the information in the database
     - `Tweed`: Holds one individual tweed
     - Any other components you see fit!
+- A deployed express API and a deployed react app.
+
+**A note on deployment** 
+You will be deploying two separate apps. One will be an express API and one will be a react app, feel free to use now or github pages. Use the [cors npm package](https://www.npmjs.com/package/cors) to deal with cross origin issues. 
 
 ## Your homework submission should include:
 
 - A **Single** issue ticket with all the names of your team members.
+    - The issue ticket should have links to your deployed express API and your deployed react app.
 - A readme with wireframes, userstories and a link to your github project board.
 
