@@ -1,5 +1,9 @@
 # GROUP HOMEWORK: Tweedr!!
 
+## This homework is due 11PM ON MONDAY(5/23) NIGHT
+
+## Outcomes on Wednesday
+
 Let's make a cool new app called ***TWEEDR***!! Not Twitter, geez...
 
 Your team will be responsible for making an express backend API that uses postsgres and a react frontend that consumes that API. Relax, you got this! 
@@ -36,4 +40,3 @@ Your React/Express app should:
 - A **Single** issue ticket with all the names of your team members.
 - A readme with wireframes, userstories and a link to your github project board.
 
-## This homework is due 11PM ON MONDAY(5/23) NIGHT
