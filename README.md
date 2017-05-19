@@ -37,7 +37,12 @@ Your React/Express app should:
 - A deployed express API and a deployed react app.
 
 **A note on deployment** 
-You will be deploying two separate apps. One will be an express API and one will be a react app, feel free to use now or github pages. Use the [cors npm package](https://www.npmjs.com/package/cors) to deal with cross origin issues. 
+You will be deploying two separate apps. One will be an express API and one will be a react app. For the API you have to use heroku. For the react app feel free to use now or github pages. Use the [cors npm package](https://www.npmjs.com/package/cors) to deal with cross origin issues.
+
+## Suggested workflow
+- Start with the database. What will your table look like.
+- Create an API that uses your database. Test your routes with postman.
+- Create a react app that uses axios to consume your api and displays the information. 
 
 ## Your homework submission should include:
 
