@@ -6,8 +6,17 @@ var pgp = require('pg-promise')(options);
 var connectionString = process.env.DATABASE_URL;
 var db = pgp(connectionString);
 
+function getTweeds(req, res, next){}
 
+function createTweed(req, res, next){}
 
+function updateTweed(req, res, next){}
 
+function deleteTweed(req, res, next){}
 
-module.exports = db;
+module.exports = {
+    getTweeds, // GET
+    createTweed, // CREATE
+    updateTweed, // UPDATE
+    deleteTweed, // DELETE
+};
