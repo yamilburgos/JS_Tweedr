@@ -10,7 +10,17 @@ import './App.css';
 export default class App extends Component {
   constructor(props) {
     super(props);
-    this.state = {testing: "3"};
+    this.state = {testing: "3", allPosts: []};
+  }
+
+  componentDidMount() {
+    // axios.get(example.url).then((allData) => {
+    //   this.setState({ allPosts: allData.example.example });
+    // })
+  }
+
+  testingThisList() {
+    return ["Is this an example", "Yes it is", "Cool", "That's right!"];
   }
 
   render() {
@@ -18,12 +28,14 @@ export default class App extends Component {
       <div className="App">
         <div className="App-header">
           <h2>Welcome to Tweedr</h2>
-          {this.state.testing} 
         </div>
+                  {this.state.testing} 
           <Header />
           <Input />
           <TweedrFeed 
-            testing={this.state.testing}
+            tester={this.state.testing}
+            dataList={this.testingThisList()}
+            /*allPosts={this.state.allPosts}*/
           />
       </div>
     );

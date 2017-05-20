@@ -11,7 +11,8 @@ export default class Input extends Component {
     // }).then(function (response) { 
           // console.log("Something was sent"); 
         // });
-      console.log("?ASA", this.givenInput);
+      console.log(this.givenInput);
+      document.querySelector("#textValue").value = "";
     }
   }
 
