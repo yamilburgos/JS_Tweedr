@@ -1,14 +1,11 @@
-DROP DATABASE IF EXISTS tweeder_app;
-CREATE DATABASE tweeder_app;
+DROP DATABASE IF EXISTS tweedr_app;
+CREATE DATABASE tweedr_app;
 
-\c tweeder_app
+\c tweedr_app;
 
-CREATE TABLE tweeder_posts (
-	ID SERIAL PRIMARY KEY,
-	posts VARCHAR,
-	
+CREATE TABLE IF NOT EXISTS posts(
+	id SERIAL PRIMARY KEY,
+	posts TEXT
 );
 
-INSERT INTO tweeder_posts (posts)
-	VALUES 
-	('Hello World')
+INSERT INTO posts(posts) VALUES ('Hello World');
