@@ -6,11 +6,11 @@ export default class Input extends Component {
     this.givenInput = document.querySelector("#textValue").value;
 
     if(this.givenInput !== "") {
-    // axios.post(/example, {
-    //    posts: this.givenInput
-    // }).then(function (response) { 
-          // console.log("Something was sent"); 
-        // });
+     axios.post("https://tweedrapp.herokuapp.com/createTweed", {
+        posts: this.givenInput
+     }).then(function (response) { 
+           console.log("Something was sent", this.givenInput); 
+         });
       console.log(this.givenInput);
       document.querySelector("#textValue").value = "";
     }

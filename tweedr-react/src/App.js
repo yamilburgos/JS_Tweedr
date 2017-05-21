@@ -10,7 +10,7 @@ import './App.css';
 export default class App extends Component {
   constructor(props) {
     super(props);
-    this.state = {testing: "3", allPosts: []};
+    this.state = {testing: "4", allPosts: []};
   }
 
   componentDidMount() {
@@ -29,8 +29,6 @@ export default class App extends Component {
         <div className="App-header">
           <h2>Welcome to Tweedr</h2>
         </div>
-
-                  {this.state.testing} 
           <Header />
           <Input />
           <TweedrFeed 
