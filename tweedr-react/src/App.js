@@ -38,7 +38,6 @@ export default class App extends Component {
             dataList={this.testingThisList()}
             /*allPosts={this.state.allPosts}*/
           />
-
       </div>
     );
   }
