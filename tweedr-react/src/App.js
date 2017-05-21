@@ -17,9 +17,9 @@ export default class App extends Component {
         <div className="App-header">
           <h2>Welcome to Tweedr</h2>  
         </div>
-        <Header />
-          <Input />
-          <TweedrFeed />
+        	<Header />
+          	<Input />
+          	<TweedrFeed />
       </div>
     );
   }
