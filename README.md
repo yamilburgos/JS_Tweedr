@@ -1,4 +1,7 @@
 # TWEEDR
+## by: Gainor, Eric & Yamil
+
+Server: https://tweedrapp.herokuapp.com/
 
 ### GITHUB PROJECTS
 https://git.generalassemb.ly/GainorB/Tweedr/projects/1
