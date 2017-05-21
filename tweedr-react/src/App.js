@@ -10,16 +10,17 @@ import './App.css';
 export default class App extends Component {
   constructor(props) {
     super(props);
-    this.state = {testing: "4", allPosts: []};
+    this.state = {allPosts: []};
   }
 
   componentDidMount() {
-    // axios.get(example.url).then((allData) => {
-    //   this.setState({ allPosts: allData.example.example });
-    // })
+     axios.get("https://tweedrapp.herokuapp.com/getTweeds").then((allData) => {
+       this.setState({ allPosts: allData.data.tweeds });
+     });
   }
 
   testingThisList() {
+    console.log(this.state.allPosts);
     return ["Is this an example", "Yes it is", "Cool", "That's right!"];
   }
 
@@ -32,9 +33,7 @@ export default class App extends Component {
           <Header />
           <Input />
           <TweedrFeed 
-            tester={this.state.testing}
             dataList={this.testingThisList()}
-            /*allPosts={this.state.allPosts}*/
           />
       </div>
     );
