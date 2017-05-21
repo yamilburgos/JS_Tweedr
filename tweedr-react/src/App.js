@@ -3,7 +3,6 @@ import Header from './components/Header';
 import Input from './components/Input';
 import TweedrFeed from './components/TweedrFeed';
 
-
 import axios from 'axios';
 import './App.css';
 
@@ -19,9 +18,8 @@ export default class App extends Component {
      });
   }
 
-  testingThisList() {
-    console.log(this.state.allPosts);
-    return ["Is this an example", "Yes it is", "Cool", "That's right!"];
+  changingTweedForDisplay() {
+    return this.state.allPosts;
   }
 
   render() {
@@ -33,7 +31,7 @@ export default class App extends Component {
           <Header />
           <Input />
           <TweedrFeed 
-            dataList={this.testingThisList()}
+            dataList={this.changingTweedForDisplay()}
           />
       </div>
     );
