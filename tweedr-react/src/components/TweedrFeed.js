@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 export default class TweedrFeed extends Component {
   displayAllPosts() {
     return this.testing = this.props.dataList.map((data, num) => {
-        return (<p key={num}>{data.post}</p>);
+        return (<p className="Tweeds" key={num}>{data.post}</p>);
     });
   }
 
