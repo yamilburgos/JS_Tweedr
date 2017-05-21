@@ -1,8 +1,67 @@
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  padding: 30px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: lighter;
 }
 
-a {
-  color: #00B7FF;
+div {
+  border: 1px black solid;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.getDiv {
+  background-color: #e7fdf2;
+  border: 1px solid #cde0d7;
+}
+
+.get {
+  color: green;
+}
+
+.create {
+  color: blue;
+}
+
+.createDiv {
+  background-color: #e7edfd;
+  border: 1px solid #cdd2e0;
+}
+
+.larger {
+  font-size: 20px;
+}
+
+h1 {
+  margin-bottom: 5px;
+  font-size: 50px;
+}
+
+.subLinks {
+  font-size: 13px;
+  margin-bottom: 15px;
+  display: inline-block;
+}
+
+a:link,
+a:visited,
+a:active
+ {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: red;
+}
+
+small {
+  font-size: 13px;
+}
+
+.statusDiv {
+  background-color: #f8f8f8;
+  border: 1px solid #e8e8e8;
 }

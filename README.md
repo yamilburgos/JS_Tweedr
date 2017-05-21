@@ -1,8 +1,10 @@
 # TWEEDR
 
 ### GITHUB PROJECTS
+https://git.generalassemb.ly/GainorB/Tweedr/projects/1
 
 ### WIREFRAMES
+![WireFrame](./readme-assets/wireframe.jpg)
 
 ### USER STORIES
 1. As a user, I like to see everyone's messages on the screen.
