@@ -7,16 +7,10 @@ export default class TweedrFeed extends Component {
   }
 
   displayAllPosts() {
-    // axios.get(example.url).then((postsData) => {
-    //    this.setState({});
-    // });
-
     console.log("has this been called from TweedrFeed?");
      return this.props.dataList.map((data, num) => {
         return (<p key={num}>{data}</p>);
     })
-
-   // return (this.props.dataList);
   }
 
   render() {
@@ -25,7 +19,6 @@ export default class TweedrFeed extends Component {
         	<div className="TweedrFeed">
         		<h1>tweedr feed</h1>
                 {this.displayAllPosts()}
-                {this.props.tester}
         	</div>  
         </div>
     );

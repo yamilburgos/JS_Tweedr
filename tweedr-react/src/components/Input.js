@@ -7,9 +7,9 @@ export default class Input extends Component {
 
     if(this.givenInput !== "") {
      axios.post("https://tweedrapp.herokuapp.com/createTweed", {
-        posts: this.givenInput
+        post: this.givenInput
      }).then(function (response) { 
-           console.log("Something was sent", this.givenInput); 
+           console.log("Something was sent", response); 
          });
       console.log(this.givenInput);
       document.querySelector("#textValue").value = "";
