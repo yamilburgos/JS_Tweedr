@@ -7,7 +7,7 @@ var connectionString = process.env.DATABASE_URL;
 var db = pgp(connectionString);
 
 function getTweeds(req, res, next){
-    db.any("SELECT * FROM posts")
+    db.any("SELECT * FROM posts ORDER BY id DESC")
     .then((data) => { res.status(200).json({ tweeds:data }); })
     .catch((err) => { return next(err); });
 }
