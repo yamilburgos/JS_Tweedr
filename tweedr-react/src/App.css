@@ -3,6 +3,7 @@
 }
 /*Hide Welcome to Tweedr without touching component*/
 .App-header h2{
+    display:none;
     color:#c0deed;
     padding:0;
     margin:0;
@@ -89,3 +90,37 @@ body{
     color: white;
     
 }
+/*MEDIA QUERY*/
+@media only screen and (max-width:550px){
+	body{
+		/*background-color: red;*/
+		}
+		.TweedrTitle h2{
+		   font-size: 50px;
+		}
+		.inputDiv{
+	    	padding: 5px;
+	    	width: 350px;
+	
+		}
+		.input{
+			margin-top:15px;
+	    	width: 300px;
+	    
+		}
+		.button{
+			margin:15px 0 10px 0;
+	    	
+		}
+		.TweedrFeed{
+		    width: 350px;
+		    height: 300px;
+		    border-radius:5px; 
+		}
+		.Tweeds{
+		    width: 350px;  
+		    min-height: 40px;
+		   	/*margin: 10px auto;*/
+		   	padding: 10px 5px 10px 5px;	
+		}
+	}
