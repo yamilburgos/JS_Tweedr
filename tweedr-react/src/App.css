@@ -78,13 +78,15 @@ body{
     width: 500px;  
     min-height: 50px;
     padding: 15px 0 10px 0;
-    background-color: #00aced;
-    transition:.3s;   
+    background-color: #1dcaff;
+    transition:.3s;  
+    
 }
 .Tweeds:hover{
     transition: .3s;
     background-color: #1dcaff;
     box-shadow: 0 4px 8px 0 rgba(0,0,0, .5);
+    border-bottom: none;
     color: white;
     
 }
