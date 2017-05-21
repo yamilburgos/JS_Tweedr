@@ -5,14 +5,13 @@ export default class TweedrFeed extends Component {
     this.testing = [];
 
     for (let i = 0; i < this.props.dataList.length; i++) {
-      this.testing.push(<p key ={i}>{this.props.dataList[i].posts}</p>);
+      this.testing.push(<p key ={i}>{this.props.dataList[i].post}</p>);
     }
 
     // this.testing = this.props.dataList.map((data, num) => {
     //     return (<p key={num}>{data}</p>);
     // })
-    
-    console.log(this.testing);
+
     return this.testing;
   }
 
