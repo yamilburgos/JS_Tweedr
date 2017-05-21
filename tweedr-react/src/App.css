@@ -1,10 +1,96 @@
 .App {
   text-align: center;
 }
-
-.App-header {
+/*Hide Welcome to Tweedr without touching component*/
+.App-header h2{
+	color:#c0deed;
+	padding:0;
+	margin:0;
+	height:0;
+}
+/*.App-header {
   background-color: #222;
   height: 80px;
   padding: 20px;
   color: white;
+}*/
+body{
+	background-color:#c0deed;
 }
+
+/*Header Component*/
+.TweedrDiv{
+
+}
+.TweedrTitle{
+	color:#1dcaff;
+	text-shadow: 1px 2px rgba(0,0,0,.5);
+}
+.TweedrTitle h2{
+	font-size: 100px;
+	font-style: italic;
+	user-select: none;
+	cursor: default;
+}
+
+/*Input Component*/
+.inputDiv{
+	border-radius:5px;
+	padding: 5px;
+	width: 500px;
+	background-color: #00aced;
+	margin: 0 auto;
+	padding: 10px 0 10px 0;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,.5);
+	transition: .3s;
+}
+.inputDiv:hover{
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,.5);
+	transition: .3s;
+}
+.input{
+	width: 400px;
+	border-radius:5px;
+}
+.button{
+
+}
+/*TweedrFeed Component*/
+
+.TweedrFeed h1 {
+	user-select: none;
+	font-size: 25px;
+	background-color: #1dcaff;
+	padding: 5px;
+	margin-top: 0;
+	color: white;
+	text-shadow:0px 1px rgba(0,0,0,.3) ;
+	font-style: italic;
+}
+
+.TweedrFeed{
+	width: 500px;
+	height: 300px;
+	overflow: scroll;
+	margin: 0 auto;
+	margin-top: 25px;
+	background-color: #00aced;
+	margin-bottom: 50px;
+	cursor: pointer;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,.5);
+	transition: .3s;
+}
+.Tweeds{
+	width: 500px;
+	min-height: 50px;
+	padding: 10px 0 10px 0;
+	background-color: #00aced;
+	transition:.3s;
+}
+.Tweeds:hover{
+	transition: .3s;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0, .5);
+}
+
+
+
