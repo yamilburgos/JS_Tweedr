@@ -8,7 +8,7 @@ export default class TweedrFeed extends Component {
      
         <div>
         	<div className="TweedrFeed">
-        	<h1>tweedr feed</h1>
+        		<h1>tweedr feed</h1>
         	</div>  
         </div>
       
