@@ -23,8 +23,12 @@ export default class TweedrFeed extends Component {
     return (     
         <div>
         	<div className="TweedrFeed">
+
           {this.props.tester}
           {this.displayAllPosts()}
+
+        		<h1>tweedr feed</h1>
+
         	</div>  
         </div>
     );

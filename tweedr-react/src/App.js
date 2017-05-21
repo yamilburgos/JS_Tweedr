@@ -29,6 +29,7 @@ export default class App extends Component {
         <div className="App-header">
           <h2>Welcome to Tweedr</h2>
         </div>
+
                   {this.state.testing} 
           <Header />
           <Input />
@@ -37,6 +38,7 @@ export default class App extends Component {
             dataList={this.testingThisList()}
             /*allPosts={this.state.allPosts}*/
           />
+
       </div>
     );
   }
