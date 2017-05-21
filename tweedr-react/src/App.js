@@ -29,6 +29,8 @@ export default class App extends Component {
         <div className="App-header">
           <h2>Welcome to Tweedr</h2>
         </div>
+
+                  {this.state.testing} 
           <Header />
           <Input />
           <TweedrFeed 
