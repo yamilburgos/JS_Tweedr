@@ -18,10 +18,6 @@ export default class App extends Component {
      });
   }
 
-  changingTweedForDisplay() {
-    return this.state.allPosts;
-  }
-
   render() {
     return (
       <div className="App">
@@ -31,7 +27,7 @@ export default class App extends Component {
           <Header />
           <Input />
           <TweedrFeed 
-            dataList={this.changingTweedForDisplay()}
+            dataList={this.state.allPosts}
           />
       </div>
     );
