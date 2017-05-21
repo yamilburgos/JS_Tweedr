@@ -12,8 +12,8 @@ export default class TweedrFeed extends Component {
     // });
 
     console.log("has this been called from TweedrFeed?");
-    return this.props.dataList.map((data, num) => {
-        return (<h1 key={num}>{data}</h1>);
+     return this.props.dataList.map((data, num) => {
+        return (<p key={num}>{data}</p>);
     })
 
    // return (this.props.dataList);
@@ -23,8 +23,9 @@ export default class TweedrFeed extends Component {
     return (     
         <div>
         	<div className="TweedrFeed">
-          {this.props.tester}
-          {this.displayAllPosts()}
+        		<h1>tweedr feed</h1>
+                {this.displayAllPosts()}
+                {this.props.tester}
         	</div>  
         </div>
     );
