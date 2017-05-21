@@ -5,7 +5,7 @@ CREATE DATABASE tweedr_app;
 
 CREATE TABLE IF NOT EXISTS posts(
 	id SERIAL PRIMARY KEY,
-	posts TEXT
+	post TEXT
 );
 
-INSERT INTO posts(posts) VALUES ('Hello World');
+INSERT INTO posts(post) VALUES ('Hello World');
