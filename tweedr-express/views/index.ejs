@@ -15,16 +15,22 @@
     </ul>
     <h3>GET ALL TWEEDS</h3>
     <div class="getDiv"><span class="larger"><span class="get">GET</span> https://tweedrapp.herokuapp.com/<span class="get">getTweeds</span></span></div>
-    <h3>HOW TO CREATE A TWEED</h3><small>Accepts: application/json</small>
+    <h3>HOW TO CREATE A TWEED</h3>
     <div class="createDiv"><span class="larger"><span class="create">POST</span> https://tweedrapp.herokuapp.com/<span class="create">createTweed</span></span></div>
-    <div class="createDiv"><small>{ "post" : "content goes here" }</small></div>
+    <h5>JSON FORMAT</h5>
+    <div class="createDiv"><small>{ <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"post" : "content goes here"<br> }</small></div>
     <h5>SUCCESS RESPONSE</h5>
-    <div class="createDiv">
-         <small>{ "status": "Tweed Created." }</small></div>
+    <div class="successDiv">
+         <small>{ <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Success" : "Tweed Created."<br> }</small></div>
+    <h5>ERROR RESPONSE</h5>
+    <div class="errorDiv">
+         <small>{ <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Error" : "Tweed Not Created. Try Again."<br> }</small></div>
     <h5>STATUS CODES</h5>
     <div class="statusDiv"><small><p><span class="get">200 OK:</span> The request has completed successfully.</p>
-         <p>500 Internal Server Error: Internal server exception. The request didn't succeed.</p>
-         <p>401 Unauthorized: The user is not authorized.</p>
-         <p>404 Page Not Found: The requested page doesn't exist.</p></small></div>
+         <p><span class="get">201 Created:</span> The request has been fulfilled, resulting in the creation of a new resource.</p>
+         <p><span class="error">400 Bad Request:</span> Invalid submission.</p>
+         <p><span class="error">401 Unauthorized:</span> The user is not authorized.</p>
+         <p><span class="error">404 Page Not Found:</span> The requested page doesn't exist.</p>
+         <p><span class="error">500 Internal Server Error:</span> Internal server exception. The request didn't succeed.</p></small></div>
   </body>
 </html>

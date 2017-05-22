@@ -15,9 +15,18 @@ function getTweeds(req, res, next){
 function createTweed(req, res, next){
     console.log(req.body.post);
     var post = req.body.post;
-    db.none("INSERT INTO posts(post)" + "VALUES($1)", post)
-    .then(() => { res.status(200).json({ status: 'Tweed Created.' }); })
-    .catch((err) => { return next(err); });
+
+    res.setHeader('Content-Type', 'application/json');
+
+    if(post === undefined){
+        res.status(400).json({ Error: 'Tweed Not Created. Try Again.' }); 
+    } else {
+        db.none("INSERT INTO posts(post)" + "VALUES($1)", post)
+        .then(() => { 
+            res.status(201).json({ Success: 'Tweed Created.' }); 
+        })
+        .catch((err) => { return next(err); });
+    }
 }
 
 module.exports = {
