@@ -11,9 +11,14 @@ div {
   margin-top: 10px;
 }
 
-.getDiv {
+.successDiv {
   background-color: #e7fdf2;
   border: 1px solid #cde0d7;
+}
+
+.getDiv {
+  background-color: #fbf1e6;
+  border: 1px solid #ffddb8;
 }
 
 .get {
@@ -64,4 +69,13 @@ small {
 .statusDiv {
   background-color: #f8f8f8;
   border: 1px solid #e8e8e8;
+}
+
+.errorDiv {
+  background-color: #fbe7e7;
+  border: 1px solid #ffc5c5;
+}
+
+.error {
+  color: red;
 }

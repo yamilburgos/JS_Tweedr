@@ -7,4 +7,4 @@ import './index.css';
 ReactDOM.render(<App />, document.getElementById('root'));
 registerServiceWorker();
 
-module.exports = () => 'Ahoy, world!'
+//module.exports = () => 'Ahoy, world!'
