@@ -6,7 +6,6 @@ export default class Header extends Component {
       <div className="TweedrDiv">
         <div className="TweedrTitle">
           <h2>Tweedr</h2>
-          <p className="subtitle">What ya Thinking?</p>
         </div>
       </div>
     );
