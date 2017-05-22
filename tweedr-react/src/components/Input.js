@@ -19,7 +19,7 @@ export default class Input extends Component {
   render() {
     return (  
         <div className="inputDiv">
-          <input type="text" id="textValue" className="input" /> 
+          <input type="text" id="textValue" placeholder="What ya Thinking?" className="input" /> 
           <button onClick={() => this.submitTweedr()} className="button">Tweed It!</button>
         </div>      
     );
