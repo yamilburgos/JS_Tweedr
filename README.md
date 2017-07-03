@@ -12,14 +12,14 @@ Server: https://tweedrapp.herokuapp.com/
 
 Projects: https://git.generalassemb.ly/GainorB/Tweedr/projects/1
 
-### Wireframes
+## Wireframes
 ![WireFrame](./readme-assets/wireframe.jpg)
 
-### User Stories
+## User Stories
 1. As a user, I like to see everyone's messages on the screen.
 2. As a user, I like the ability to scroll through all of the tweeds
 
-### Download Project & Install
+## Download Project & Install
 1. Git clone or download this project
 2. Open up Terminal or Command line
 3. Navigate to the directory where the project was cloned or downloaded to
