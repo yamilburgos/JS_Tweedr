@@ -2,9 +2,10 @@
   "name": "tweedr-react",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://gainorb.github.io/Tweedr",
+  "homepage": "https://yamilburgos.github.io/Tweedr",
   "dependencies": {
     "axios": "^0.16.1",
+    "gh-pages": "^1.0.0",
     "react": "^15.5.4",
     "react-bootstrap": "^0.31.0",
     "react-dom": "^15.5.4"
